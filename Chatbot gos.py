@@ -4,7 +4,7 @@ from groq import Groq
 import secret
 import json
 import re
-
+#check pushing((
 TELEGRAM_TOKEN = secret.tg
 client_gpt = Groq(api_key=secret.gpt)
 user_contexts = {}
